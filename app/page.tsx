@@ -17,13 +17,13 @@ export default function Home() {
           />
           <div className="grid gap-8 text-center md:text-left p-16 md:p-0">
             <h1 className="text-6xl uppercase md:mt-24 tracking-widest leading-[1.1em]">
-              <span className="font-light text-primary-red-1">We're</span>{" "}
+              <span className="font-light text-primary-red-1">We&apos;re</span>{" "}
               coming soon
             </h1>
             <p className="text-primary-red-1">
-              Hello fellow shoppers! We're currently building our new fashion
-              store. Add your email below to stay up-to-date with announcements
-              and our launch deals.
+              Hello fellow shoppers! We&apos;re currently building our new
+              fashion store. Add your email below to stay up-to-date with
+              announcements and our launch deals.
             </p>
             <div className="relative">
               <input
