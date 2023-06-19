@@ -5,9 +5,9 @@ import submitIcon from "../public/icon-arrow.svg";
 
 export default function Home() {
   return (
-    <main className="grid min-h-screen place-content-center">
-      <div className="grid grid-cols-[1fr_.7fr] max-w-[1440px]">
-        <div className="flex flex-col items-start px-40 py-10">
+    <main className="grid grid-cols-[1fr_.8fr]">
+      <div className="flex flex-col py-10 place-self-center">
+        <div className="max-w-[400px]">
           <Image src={logo} width={158} height={33} alt="" />
           <div className="grid gap-8">
             <h1 className="text-6xl uppercase mt-24 tracking-widest leading-[1.1em]">
@@ -26,7 +26,7 @@ export default function Home() {
               />
               <button
                 type="submit"
-                className="bg-primary-red-2/80 px-12 py-4 rounded-full right-0 h-full absolute"
+                className="bg-gradient-to-r from-btn-start to-btn-end px-12 py-4 rounded-full right-0 h-full absolute"
               >
                 <Image
                   src={submitIcon}
@@ -39,15 +39,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="">
-          <div className="h-screen w-full relative">
-            <Image
-              src={heroDesktop}
-              alt=""
-              fill={true}
-              className="object-cover"
-            />
-          </div>
+      </div>
+      <div className="">
+        <div className="h-screen w-full relative">
+          <Image
+            src={heroDesktop}
+            alt=""
+            fill={true}
+            className="object-cover"
+          />
         </div>
       </div>
     </main>
