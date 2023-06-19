@@ -32,6 +32,7 @@ export default function Home() {
               />
               <button
                 type="submit"
+                aria-label="Submit"
                 className="bg-gradient-to-r from-btn-start to-btn-end px-8 md:px-12 py-4 rounded-full right-0 h-full absolute shadow-xl hover:shadow-gray-400/80"
               >
                 <Image
