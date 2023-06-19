@@ -7,7 +7,7 @@ import submitIcon from "../public/icon-arrow.svg";
 export default function Home() {
   return (
     <main className="grid md:grid-cols-[1fr_.8fr]">
-      <div className="flex flex-col py-20 justify-self-center">
+      <div className="flex flex-col py-10 md:py-20 justify-self-center">
         <div className="md:max-w-[400px]">
           <Image src={logo} width={158} height={33} alt="" className="px-4" />
           <Image
